@@ -13,7 +13,10 @@ public class Ex_06 {
         System.out.println("valor 2: ");
         valor2 = input.nextInt();
 
-        valor1 = valor2;
+        valor1 = valor1 + valor2;
+        valor2 = valor1 - valor2;
+        valor1 = valor1 - valor2;
+
         System.out.println(valor1);
         System.out.println(valor2);
 
