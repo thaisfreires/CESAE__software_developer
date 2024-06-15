@@ -1,5 +1,5 @@
-package FichaPratica02;
-
+package Conditionals;
+//Leia dois numeros inteiros e escreva o maior
 import java.util.Scanner;
 
 public class Ex_01 {

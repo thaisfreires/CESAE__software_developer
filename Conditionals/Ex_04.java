@@ -1,4 +1,4 @@
-package FichaPratica02;
+package Conditionals;
 
 import java.util.Scanner;
 
