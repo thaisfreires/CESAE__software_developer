@@ -4,10 +4,14 @@ import java.util.Scanner;
 
 public class Ex_03 {
     public static void main(String[] args) {
+        //Import Scanner
         Scanner input = new Scanner(System.in);
+
+        //Declarar variaveis
 
         System.out.print("Indroduza um salário: ");
         double salario = input.nextDouble();
+
         if (salario > 25000) {
             System.out.println("Seu imposto é de: " +salario * 0.4);
         }

@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class Ex_05 {
     public static void main(String[] args) {
-       Scanner input = new Scanner(System.in);
+        //Import Scanner
+        Scanner input = new Scanner(System.in);
 
+        //Declarar e ler variaveis
         int valor1, valor2;
         System.out.print("Digite um valor: ");
         valor1 = input.nextInt();
@@ -13,11 +15,9 @@ public class Ex_05 {
         valor2 = input.nextInt();
 
         if (valor1 < valor2) {
-            System.out.println(valor1);
-            System.out.println(valor2);
+            System.out.println(valor1 + "\t" + valor2);
         }else{
-            System.out.println(valor2);
-            System.out.println(valor1);
+            System.out.println(valor2 + "\t" + valor1);
         }
 
 

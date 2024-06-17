@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class Ex_02 {
     public static void main(String[] args) {
+        //Import Scanner
         Scanner input = new Scanner(System.in);
+
+        //Declarar variaveis
         double salario, imposto;
 
         System.out.print("Indroduza um salário: ");
