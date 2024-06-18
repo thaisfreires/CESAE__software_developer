@@ -31,7 +31,13 @@ public class Ex_14 {
             }
         
             }
-
+        if (c < a && c < b) {
+            if (c < b){
+                System.out.println(c + " " + a + " " + b);
+            }else {
+                System.out.println(c + " " + b + " " + a);
+            }
+        }
         }
     }
-    }
+
