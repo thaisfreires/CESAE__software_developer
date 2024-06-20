@@ -16,12 +16,12 @@ public class Ex_15 {
         int c = input.nextInt();
 
         System.out.print("Crescente (C) ou Decrescente (D): ");
-        opcao = input.next();
+        String opcao = input.next();
 
         //Definir ordem crescente
         switch (opcao) {
             case "C":
-                if ( a < b && a < c) {
+                if (a < b && a < c) {
                     if (b < c) {
                         System.out.println(a + " " + b + " " + c);
                     } else {
@@ -29,25 +29,25 @@ public class Ex_15 {
                     }
                 }
                 if (b < a && b < c) {
-                    if (a < c){
+                    if (a < c) {
                         System.out.println(b + " " + a + " " + c);
-                    }else{
+                    } else {
                         System.out.println(b + " " + c + " " + a);
                     }
 
                 }
                 if (c < a && c < b) {
-                    if (c < b){
+                    if (c < b) {
                         System.out.println(c + " " + a + " " + b);
-                    }else {
+                    } else {
                         System.out.println(c + " " + b + " " + a);
                     }
                 }
-            }
-            break;
+
+                break;
 
             case "D":
-                if ( a < b && a < c) {
+                if (a < b && a < c) {
                     if (b < c) {
                         System.out.println(c + " " + b + " " + a);
                     } else {
@@ -55,21 +55,22 @@ public class Ex_15 {
                     }
                 }
                 if (b < a && b < c) {
-                    if (a < c){
+                    if (a < c) {
                         System.out.println(c + " " + a + " " + b);
-                    }else{
+                    } else {
                         System.out.println(a + " " + c + " " + b);
                     }
 
                 }
                 if (c < a && c < b) {
-                    if (c < b){
+                    if (c < b) {
                         System.out.println(b + " " + a + " " + c);
-                    }else {
+                    } else {
                         System.out.println(a + " " + b + " " + c);
                     }
+
                 }
-            }
-                    break;
+                break;
         }
+    }
 }
