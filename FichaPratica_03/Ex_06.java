@@ -7,17 +7,16 @@ public class Ex_06 {
         Scanner input = new Scanner(System.in);
 
 
-        int valor1, valor2, x = 0;
+        int inicio, fim;
         System.out.print("Digite um valor: ");
-        valor1 = input.nextInt();
-        x = valor1;
+        inicio = input.nextInt();
 
         System.out.print("Digite um valor: ");
-        valor2 = input.nextInt();
+        fim = input.nextInt();
 
-        while (x <= valor2){
-            System.out.println(x);
-            x = x + 1;
+        while (inicio <= fim){
+            System.out.println(inicio);
+            inicio = inicio + 1;
         }
     }
 }

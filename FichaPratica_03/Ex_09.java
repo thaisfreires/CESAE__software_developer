@@ -9,7 +9,7 @@ public class Ex_09 {
         System.out.print("Insira um número: ");
         int num = input.nextInt();
         int soma = 0;
-        int media = 0;
+        int media;
         int quantidade = 0;
 
         while (num != -1){
