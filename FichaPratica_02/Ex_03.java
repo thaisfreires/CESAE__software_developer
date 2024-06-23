@@ -1,4 +1,4 @@
-package Conditionals;
+package FichaPratica_02;
 //Determine e escreva o montante de impostos a pagar sobre um salário anual lido
 import java.util.Scanner;
 

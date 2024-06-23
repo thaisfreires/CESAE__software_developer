@@ -1,4 +1,4 @@
-package Conditionals;
+package FichaPratica_02;
 //Determine e escreva o montante de impostos a pagar sobre um sálário anual liquido, tendo em conta que o sálário até 15000 paga taxa de 20% e superior a 15000, 30%.
 import java.util.Scanner;
 

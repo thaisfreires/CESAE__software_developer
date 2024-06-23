@@ -1,4 +1,4 @@
-package Conditionals;
+package FichaPratica_02;
 //Escreva um programa que leia 3 números e o imprima de forma crescente.
 import java.util.Scanner;
 

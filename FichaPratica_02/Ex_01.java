@@ -1,4 +1,4 @@
-package Conditionals;
+package FichaPratica_02;
 //Leia dois numeros inteiros e escreva o maior
 import java.util.Scanner;
 

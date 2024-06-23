@@ -1,4 +1,4 @@
-package Conditionals;
+package FichaPratica_02;
 //Escreva um programa que leia um número, depois apresente se é par ou ímpar.
 import java.util.Scanner;
 

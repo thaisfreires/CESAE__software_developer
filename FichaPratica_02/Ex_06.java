@@ -1,8 +1,8 @@
-package Conditionals;
-//Escreva um programa que leia dois valores numéricos e apresente o menor e depois o maior.
+package FichaPratica_02;
+//Escreva um programa que leia dois valores numéricos e apresente o maior e depois o menor.
 import java.util.Scanner;
 
-public class Ex_05 {
+public class Ex_06 {
     public static void main(String[] args) {
         //Import Scanner
         Scanner input = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class Ex_05 {
         System.out.print("Digite um valor: ");
         valor2 = input.nextInt();
 
-        if (valor1 < valor2) {
+        if (valor1 > valor2) {
             System.out.println(valor1 + "\t" + valor2);
         }else{
             System.out.println(valor2 + "\t" + valor1);
